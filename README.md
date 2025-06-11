@@ -29,6 +29,33 @@ python -m ipykernel install --user --name=venv --display-name "Python PR (venv)"
 jupyter notebook
 
 ```
+
+### 🐍 Python Installation (if not already installed)
+
+This project requires **Python 3.10 or higher**.
+
+To check if Python is installed, open PowerShell and run:
+
+```powershell
+python --version
+```
+
+If you get a message saying that Python is not recognized, you can download and install it directly using the following commands:
+
+```powershell
+curl -o python-installer.exe https://www.python.org/ftp/python/3.12.3/python-3.12.3-amd64.exe
+Start-Process python-installer.exe
+```
+
+This will download the official Python installer and launch it.
+➡️ Make sure to check the option “Add Python to PATH” during installation.
+
+Once installed, reopen PowerShell and verify:
+
+```powershell
+python --version
+```
+
 ## Data-sources
 
 - Scikit-learn Diabetes Dataset (https://scikit-learn.org/stable/datasets/toy_dataset.html#diabetes-dataset)
